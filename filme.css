@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+#selection-container {
+    margin-bottom: 20px;
+}
+
+#selection-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+#share-container {
+    margin-bottom: 20px;
+}
+
+#share-link {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#copy-link-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+}
+
+#match-container {
+    display: none;
+}
+
+#movie-container {
+    margin-bottom: 20px;
+}
+
+#movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#dislike-btn {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#like-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#match-results {
+    margin-top: 20px;
+    display: none;
+}
+
+#match-list {
+    list-style-type: none;
+    padding: 0;
+}
